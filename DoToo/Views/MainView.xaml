@@ -31,7 +31,7 @@
 
             <ListView x:Name="ItemListView"
                   Grid.Row="1"
-                  RowHeight="80"
+                  RowHeight="100"
                   ItemsSource="{Binding Items}"
                   SelectedItem="{Binding SelectedItem} ">
             <ListView.ItemTemplate>
